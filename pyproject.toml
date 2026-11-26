@@ -1,0 +1,17 @@
+[project]
+name = "aibasics-lab1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "int3rrobang", email = "80174663+int3rrobang@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+aibasics-lab1 = "aibasics_lab1:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
